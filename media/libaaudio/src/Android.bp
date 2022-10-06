@@ -81,6 +81,7 @@ cc_library {
     header_libs: [
         "libaaudio_headers",
     ],
+    sdclang: false,
     export_header_lib_headers: ["libaaudio_headers"],
     version_script: "libaaudio.map.txt",
 
